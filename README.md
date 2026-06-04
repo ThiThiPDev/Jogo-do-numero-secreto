@@ -1,0 +1,1 @@
+Este jogo contém um número secreto, sorteado aleatoriamente entre 1 e 10. O objetivo é descobrir qual é esse número utilizando o menor número de tentativas possível. A cada erro, o jogo fornece dicas indicando se o número secreto é maior ou menor que o valor informado, ajudando o jogador a chegar à resposta correta.
