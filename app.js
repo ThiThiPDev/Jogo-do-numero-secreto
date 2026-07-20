@@ -1,6 +1,3 @@
-// let titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do número secreto';
-
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -12,14 +9,6 @@ paragrafo.innerHTML = `Escolha o número entre 1 e ${numeroLimite}`;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-     if ('speechSynthesis' in window) {
-        let utterance = new SpeechSynthesisUtterance(texto);
-        utterance.lang = 'pt-BR'; 
-        utterance.rate = 2.0; 
-        window.speechSynthesis.speak(utterance); 
-    } else {
-        console.log("Web Speech API não suportada neste navegador.");
-    }
 }
 
 exibirMensagemInicial();
