@@ -127,7 +127,7 @@ button:disabled {
 
     .container {
         width: 95%;
-        transform: translateY(-50gitpx);
+        transform: translateY(-50px);
     }
 
     .container__botao {
