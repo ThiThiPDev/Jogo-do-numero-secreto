@@ -11,6 +11,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
@@ -113,16 +116,21 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .container {
+        width: 95%;
     }
 
     .container__botao {
-        font-size: 16px;
+        font-size: 18px;
     }
 
-
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .container__imagem-pessoa {
